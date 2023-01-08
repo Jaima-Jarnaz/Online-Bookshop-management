@@ -38,7 +38,7 @@ jobs:
         run: npm run build:prod
 
       - name: Deploy to GitHub Pages
-        uses: bookshop/ghaction-github-pages@v3
+        uses: Jaima-Jarnaz/Online-Bookshop-management-github-pages@v3
         with:
           target_branch: main
           build_dir: dist/build
